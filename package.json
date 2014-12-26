@@ -1,0 +1,37 @@
+{
+    "name": "rct",
+    "version": "1.0.0",
+    "description": "rct ===",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hukuuu/rct.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/hukuuu/rct/issues"
+    },
+    "homepage": "https://github.com/hukuuu/rct",
+    "preferGlobal": "true",
+    "bin": {
+        "rct": "gulpfile.js"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "browser-sync": "^1.8.2",
+        "browserify": "^8.0.1",
+        "gulp": "^3.8.10",
+        "gulp-rename": "^1.2.0",
+        "gulp-replace": "^0.5.0",
+        "gulp-util": "^3.0.1",
+        "minimist": "^1.1.0",
+        "react": "^0.12.2",
+        "reactify": "^0.17.1",
+        "vinyl-source-stream": "^1.0.0",
+        "watchify": "^2.2.1"
+    }
+}
